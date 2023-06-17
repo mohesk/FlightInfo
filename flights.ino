@@ -7,7 +7,7 @@
 const char* ssid       = "";
 const char* password   = "";
 const char* test_root_ca= "";
-"-----END CERTIFICATE-----\n";
+
 const char* RT_flight_data_url = "https://data-cloud.flightradar24.com/zones/fcgi/feed.js?bounds=";
 LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27, 20, 4);
 void setup() {
